@@ -26,11 +26,13 @@ streamlit run app.py
 
 ## Deployment
 
-### Streamlit Cloud
-1. Create `requirements.txt` in the project root.
-2. Push the repo to GitHub.
-3. In Streamlit Cloud, connect your GitHub repo and set the main file to `app.py`.
-4. Add your `GOOGLE_API_KEY` as a secret in Streamlit Cloud.
+### Render (recommended free alternative)
+1. Push the repo to GitHub.
+2. In Render, create a new Web Service.
+3. Select the GitHub repo `haiderrrr685/rag-pipe-line-demo`.
+4. Choose `Docker` as the environment.
+5. Set the branch to `main` and the Dockerfile path to `Dockerfile`.
+6. Add `GOOGLE_API_KEY` as an environment variable in Render.
 
 ### Docker
 1. Create a Docker image:
