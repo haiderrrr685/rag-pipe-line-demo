@@ -2,8 +2,19 @@
 
 A simple Streamlit RAG PDF chatbot using Google Gemini embeddings and Chroma vector store.
 
+## Project Overview
+This project lets users upload a PDF and ask natural-language questions about its contents. It uses:
+- Streamlit for the web UI
+- LangChain + Google Gemini embeddings for document retrieval
+- Chroma as the vector database
+- Docker for easy deployment
+
 ## Files
-- `app.py` — main Streamlit application.
+- `app.py` — main Streamlit application
+- `Dockerfile` — container build definition
+- `render.yaml` — Render deployment configuration
+- `requirements.txt` — Python dependencies
+- `.env.example` — example environment configuration
 
 ## Setup
 1. Copy `.env.example` to `.env` and replace with your real API key:
