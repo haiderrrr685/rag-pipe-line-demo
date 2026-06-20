@@ -6,10 +6,10 @@ A simple Streamlit RAG PDF chatbot using Google Gemini embeddings and Chroma vec
 - `app.py` — main Streamlit application.
 
 ## Setup
-1. Create a `.env` file with:
+1. Copy `.env.example` to `.env` and replace with your real API key:
 
-```env
-GOOGLE_API_KEY=your_api_key_here
+```bash
+cp .env.example .env
 ```
 
 2. Install dependencies:
